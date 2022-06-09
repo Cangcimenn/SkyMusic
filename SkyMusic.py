@@ -58,7 +58,7 @@ HELP_TEXT = """<b>» ᴍᴀɪɴ ᴄᴏᴍᴍᴀɴᴅꜱ «</b>
 » /restart : ʀᴇsᴛᴀʀᴛs ᴛʜᴇ ʙᴏᴛ.
 💻<b><u>ᴍᴀᴅᴇ ʙʏ ♥ SKY ♥</u></b>"""
 
-START_IMG = ""
+START_IMG = "https://telegra.ph/file/95f64da5d816bcd511c65.jpg"
 
 START_BUTTONS = InlineKeyboardMarkup(
     [
@@ -270,7 +270,7 @@ async def help_cmd(_, message):
 async def start_group(_, message):
     await message.delete()
     fuk = "<b>ᴩᴏɴɢ ᴍᴜꜱɪᴄ !</b>"
-    await message.reply_photo(photo="https://telegra.ph/file/d6ff45f5be2b42fcc2ffb.jpg", caption=fuk)
+    await message.reply_photo(photo="https://telegra.ph/file/95f64da5d816bcd511c65.jpg", caption=fuk)
 
 
 @bot.on_message(filters.command(["join", "userbotjoin", "assistant", "ass"]) & filters.group)
