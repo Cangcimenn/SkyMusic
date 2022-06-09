@@ -38,7 +38,7 @@ The second easiest way to host this bot, Deploy on Okteto Cloud
 - 𝐒𝐊𝐘
 
 ### Support 🎑
-<a href="https://telegram.me/ilusi_kata"><img src="https://img.shields.io/badge/-DevilsHeavenMF-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://telegram.me/ilusi_kata"><img src="https://img.shields.io/badge/-SUPPORT CHANNEL-blue.svg?style=for-the-badge&logo=Telegram"></a>
 
 ------------------------------------------------
 -------------------------------------------------
