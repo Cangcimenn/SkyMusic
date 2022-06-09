@@ -1,0 +1,36 @@
+{
+  "name": "ᴀɴᴏɴʏᴍᴏᴜs ᴍᴜsɪᴄ",
+  "description": "Bot Telegram untuk memutar audio dan video dalam obrolan video telegram.",
+  "keywords": ["music", "voicechat", "telegram"],
+  "logo": "",
+  "repository": "https://github.com/Cangcimenn/SkyMusic",
+  "stack": "container",
+  "env": {
+    "SESSION_NAME": {
+      "description": "",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Masukan Bot Token Dari @BotFather",
+      "required": true
+    },
+    "API_ID": {
+      "description": "Silahkan Ambil Di my.telegram.org/apps",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Silahkan Ambil Di my.telegram.org/apps",
+      "required": true
+    },
+    "SUPPORT": {
+      "description": "",
+      "required": true,
+      "value": "ilusi_kata"
+    },
+    "OWNER_ID": {
+      "description": "ID Telegram Anda",
+      "required": true,
+      "value": "5366532807"
+    }
+  }
+}
