@@ -2,12 +2,12 @@
   "name": "Sky Music Bot",
   "description": "Bot Telegram untuk memutar audio dan video dalam obrolan video telegram.",
   "keywords": ["music", "voicechat", "telegram"],
-  "logo": "",
+  "logo": "https://telegra.ph/file/95f64da5d816bcd511c65.jpg",
   "repository": "https://github.com/Cangcimenn/SkyMusic",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
-      "description": "",
+      "description": "Masukan string session pyrogram",
       "required": true
     },
     "BOT_TOKEN": {
@@ -23,7 +23,7 @@
       "required": true
     },
     "SUPPORT": {
-      "description": "",
+      "description": "masuka username support tanpa @",
       "required": true,
       "value": "ilusi_kata"
     },
