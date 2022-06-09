@@ -379,7 +379,7 @@ async def stream_func(_, message):
     m = await message.reply_text("» ꜱᴇᴅᴀɴɢ ᴍᴇᴍᴘʀᴏꜱᴇꜱ ʟᴀɢᴜ...")
     try:
         if chat_id in QUEUE:
-            return await m.edit("❗️Please send <code>/end</code> to end voice chat before live streaming.")
+            return await m.edit("❗️ꜱɪʟᴀʜᴋᴀɴ ᴋɪʀɪᴍ <code>/end</code> ᴜɴᴛᴜᴋ ᴍᴇɴɢᴀᴋʜɪʀɪ ᴏʙʀᴏʟᴀɴ ꜱᴜᴀʀᴀ ꜱᴇʙᴇʟᴜᴍ ꜱᴛʀᴇᴀᴍɪɴɢ ʟᴀɴɢꜱᴜɴɢ.")
         elif chat_id in LIVE_CHATS:
             await app.change_stream(
                 chat_id,
