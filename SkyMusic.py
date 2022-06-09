@@ -64,14 +64,14 @@ START_BUTTONS = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                        "ᴀᴅᴅ ꜱᴋʏ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url="https://t.me/skymusicbot?startgroup=true")
+                        "➕ ᴀᴅᴅ ꜱᴋʏ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕", url="https://t.me/skymusicbot?startgroup=true")
         ],
         [   
-            InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴘᴇʀ", user_id=1356469075),
-            InlineKeyboardButton("sᴜᴩᴩᴏʀᴛ", url=f"https://t.me/{SUPPORT}")
+            InlineKeyboardButton("👩‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ", user_id=1356469075),
+            InlineKeyboardButton("💬 sᴜᴩᴩᴏʀᴛ", url=f"https://t.me/{SUPPORT}")
         ],
         [
-            InlineKeyboardButton("sᴏᴜʀᴄᴇ ᴋᴏᴅᴇ", url="https://github.com/Cangcimenn/SkyMusic")
+            InlineKeyboardButton("🌐sᴏᴜʀᴄᴇ ᴋᴏᴅᴇ🌐", url="https://github.com/Cangcimenn/SkyMusic")
         ]
     ]
 )
@@ -79,7 +79,7 @@ START_BUTTONS = InlineKeyboardMarkup(
 HELP_BUTTON = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton("​ᴄʟᴏsᴇ​", callback_data="close")
+            InlineKeyboardButton("•​ᴄʟᴏsᴇ•​", callback_data="close")
         ]
     ]
 )
@@ -93,7 +93,7 @@ BUTTONS = InlineKeyboardMarkup(
             InlineKeyboardButton("▢", callback_data="end"),
         ],
         [
-            InlineKeyboardButton("​ᴄʟᴏsᴇ​", callback_data="close")
+            InlineKeyboardButton("•​ᴄʟᴏsᴇ•​", callback_data="close")
         ]
     ]
 )
