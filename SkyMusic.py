@@ -257,7 +257,7 @@ async def callbacks(_, cq: CallbackQuery):
 async def start_private(_, message):
     msg = START_TEXT.format(message.from_user.mention)
     await message.reply_photo(photo = START_IMG,
-                              caption = msg,
+                              caption = START_TEXT,
                              reply_markup = START_BUTTONS)
     
 @bot.on_message(filters.command(["help", "cmd", "cmds", "commands"]) & filters.private)
