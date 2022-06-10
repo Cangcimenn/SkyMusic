@@ -36,6 +36,7 @@ client = Client(os.environ["SESSION_NAME"], int(os.environ["API_ID"]), os.enviro
 app = PyTgCalls(client)
 
 OWNER_ID = int(os.environ["OWNER_ID"])
+BOT_USERNAME = int(os.environ["BOT_USERNAME"])
 SUPPORT = os.environ["SUPPORT"]
 
 LIVE_CHATS = []
@@ -253,12 +254,13 @@ async def callbacks(_, cq: CallbackQuery):
             await cq.answer("» ʟᴀɢᴜ ʙᴇʀʜᴀꜱɪʟ ᴅɪʟᴇᴡᴀᴛɪ.")
 
 
-@bot.on_message(filters.command("start") & filters.private)
-async def start_private(_, message):
-    msg = START_TEXT.format(message.from_user.mention)
-    await message.reply_photo(photo = START_IMG,
-                              caption = START_TEXT,
-                             reply_markup = START_BUTTONS)
+@bot.on_message(
+    command(["start", f"start@{BOT_USERNAME}"]) & filters.private & ~filters.edited
+)
+async def start_private(client: Client, message: Message):
+ await message.reply_photo((photo = START_IMG,
+                            caption = START_TEXT,
+                           reply_markup = START_BUTTONS)
     
 @bot.on_message(filters.command(["help", "cmd", "cmds", "commands"]) & filters.private)
 async def help_cmd(_, message):
