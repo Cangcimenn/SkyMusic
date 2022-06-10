@@ -22,6 +22,10 @@
       "description": "Silahkan Ambil Di my.telegram.org/apps",
       "required": true
     },
+    "BOT_USERNAME": {
+      "description": "Silahkan masukan username bot mu tanpa @",
+      "required": true
+    },
     "SUPPORT": {
       "description": "masuka username support tanpa @",
       "required": true,
